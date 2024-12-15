@@ -11,6 +11,19 @@
 		4C06DBFE2D0B68C3003EB13F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DBFD2D0B68C3003EB13F /* ContentView.swift */; };
 		4C06DC002D0B68C4003EB13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DBFF2D0B68C4003EB13F /* Assets.xcassets */; };
 		4C06DC032D0B68C4003EB13F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC022D0B68C4003EB13F /* Preview Assets.xcassets */; };
+		4C06DC142D0B7128003EB13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DC132D0B7128003EB13F /* AppDelegate.swift */; };
+		4C06DC162D0DE4A4003EB13F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DC152D0DE4A4003EB13F /* OnboardingView.swift */; };
+		4C06DC1C2D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC192D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png */; };
+		4C06DC1D2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC1A2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png */; };
+		4C06DC1E2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC1B2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png */; };
+		4C06DC252D0E008C003EB13F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC232D0E008C003EB13F /* Localizable.strings */; };
+		4C06DC272D0E088B003EB13F /* OnBoardingScreenComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C06DC262D0E088B003EB13F /* OnBoardingScreenComponents.swift */; };
+		4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC282D0F1109003EB13F /* OnBoardingTrackMoney@3x.png */; };
+		4C06DC2C2D0F1109003EB13F /* OnBoardingTrackMoney@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC292D0F1109003EB13F /* OnBoardingTrackMoney@2x.png */; };
+		4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2A2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png */; };
+		4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */; };
+		4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */; };
+		4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,19 @@
 		4C06DBFD2D0B68C3003EB13F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C06DBFF2D0B68C4003EB13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C06DC022D0B68C4003EB13F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C06DC132D0B7128003EB13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C06DC152D0DE4A4003EB13F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4C06DC192D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingCreatingAccount@3x.png"; sourceTree = "<group>"; };
+		4C06DC1A2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingCreatingAccount@1x.png"; sourceTree = "<group>"; };
+		4C06DC1B2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingCreatingAccount@2x.png"; sourceTree = "<group>"; };
+		4C06DC242D0E008C003EB13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C06DC262D0E088B003EB13F /* OnBoardingScreenComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenComponents.swift; sourceTree = "<group>"; };
+		4C06DC282D0F1109003EB13F /* OnBoardingTrackMoney@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingTrackMoney@3x.png"; sourceTree = "<group>"; };
+		4C06DC292D0F1109003EB13F /* OnBoardingTrackMoney@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingTrackMoney@2x.png"; sourceTree = "<group>"; };
+		4C06DC2A2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingTrackMoney@1x.png"; sourceTree = "<group>"; };
+		4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@2x.png"; sourceTree = "<group>"; };
+		4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@3x.png"; sourceTree = "<group>"; };
+		4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@1x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +77,16 @@
 		4C06DBFA2D0B68C3003EB13F /* CashCraft */ = {
 			isa = PBXGroup;
 			children = (
-				4C06DBFB2D0B68C3003EB13F /* CashCraftApp.swift */,
-				4C06DBFD2D0B68C3003EB13F /* ContentView.swift */,
+				4C06DC112D0B6C44003EB13F /* App Core */,
+				4C06DC092D0B6B4A003EB13F /* View */,
+				4C06DC0A2D0B6B6E003EB13F /* ViewModels */,
+				4C06DC0B2D0B6B8E003EB13F /* Models */,
+				4C06DC0C2D0B6BA0003EB13F /* Services */,
+				4C06DC1F2D0DFC2C003EB13F /* Shared */,
+				4C06DC102D0B6C10003EB13F /* Resources */,
+				4C06DC0F2D0B6BFB003EB13F /* Utilities */,
+				4C06DC0E2D0B6BEF003EB13F /* Configuration */,
+				4C06DC0D2D0B6BDD003EB13F /* Firebase */,
 				4C06DBFF2D0B68C4003EB13F /* Assets.xcassets */,
 				4C06DC012D0B68C4003EB13F /* Preview Content */,
 			);
@@ -65,6 +99,123 @@
 				4C06DC022D0B68C4003EB13F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C06DC092D0B6B4A003EB13F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC122D0B6CEE003EB13F /* Main */,
+				4C06DC152D0DE4A4003EB13F /* OnboardingView.swift */,
+				4C06DC262D0E088B003EB13F /* OnBoardingScreenComponents.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C06DC0A2D0B6B6E003EB13F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4C06DC0B2D0B6B8E003EB13F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C06DC0C2D0B6BA0003EB13F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4C06DC0D2D0B6BDD003EB13F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		4C06DC0E2D0B6BEF003EB13F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		4C06DC0F2D0B6BFB003EB13F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4C06DC102D0B6C10003EB13F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC222D0E0019003EB13F /* Localized */,
+				4C06DC172D0DED37003EB13F /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C06DC112D0B6C44003EB13F /* App Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DBFB2D0B68C3003EB13F /* CashCraftApp.swift */,
+				4C06DC132D0B7128003EB13F /* AppDelegate.swift */,
+			);
+			path = "App Core";
+			sourceTree = "<group>";
+		};
+		4C06DC122D0B6CEE003EB13F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DBFD2D0B68C3003EB13F /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C06DC172D0DED37003EB13F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC182D0DED50003EB13F /* Onboarding */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4C06DC182D0DED50003EB13F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC1A2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png */,
+				4C06DC1B2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png */,
+				4C06DC192D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png */,
+				4C06DC2A2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png */,
+				4C06DC292D0F1109003EB13F /* OnBoardingTrackMoney@2x.png */,
+				4C06DC282D0F1109003EB13F /* OnBoardingTrackMoney@3x.png */,
+				4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */,
+				4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */,
+				4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		4C06DC1F2D0DFC2C003EB13F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4C06DC222D0E0019003EB13F /* Localized */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC232D0E008C003EB13F /* Localizable.strings */,
+			);
+			path = Localized;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +276,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */,
+				4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */,
+				4C06DC2C2D0F1109003EB13F /* OnBoardingTrackMoney@2x.png in Resources */,
 				4C06DC032D0B68C4003EB13F /* Preview Assets.xcassets in Resources */,
+				4C06DC252D0E008C003EB13F /* Localizable.strings in Resources */,
+				4C06DC1E2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png in Resources */,
 				4C06DC002D0B68C4003EB13F /* Assets.xcassets in Resources */,
+				4C06DC1D2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png in Resources */,
+				4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */,
+				4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */,
+				4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */,
+				4C06DC1C2D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +298,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C06DC142D0B7128003EB13F /* AppDelegate.swift in Sources */,
+				4C06DC162D0DE4A4003EB13F /* OnboardingView.swift in Sources */,
+				4C06DC272D0E088B003EB13F /* OnBoardingScreenComponents.swift in Sources */,
 				4C06DBFE2D0B68C3003EB13F /* ContentView.swift in Sources */,
 				4C06DBFC2D0B68C3003EB13F /* CashCraftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C06DC232D0E008C003EB13F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C06DC242D0E008C003EB13F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C06DC042D0B68C4003EB13F /* Debug */ = {

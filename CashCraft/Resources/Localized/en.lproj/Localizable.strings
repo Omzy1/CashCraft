@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  CashCraft
+
+  Created by omar sillah on 14/12/2024.
+  
+*/
+//OnBoarding 
+onboarding_screenOne_title = "Plan Your Spending";
+onboarding_screenOne_subtitle = "Achieve Your Goals";
+button_continue = "Continue";
+button_getStarted = "Get Started";
+imageOnboarding_screenOne = "OnBoardingCreatingAccount";
+// onboarding screen 2
+onboarding_screenTwo_title = "Track Every Penny";
+onboarding_screenTwo_subtitle = "Save Smarter";
+imageOnboarding_screenTwo = "OnBoardingTrackMoney";
+// onboarding screen 3
+onboarding_screenThree_title = "Finance Your Dreams";
+onboarding_screenThree_subtitle = "One Step at a Time";
+imageOnboarding_screenThree = "OnBoardingFinanceDreams";
