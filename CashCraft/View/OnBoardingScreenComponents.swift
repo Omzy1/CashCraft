@@ -12,19 +12,23 @@ struct OnBoardingScreenComponents: View {
     var subTitle: String
     var image: Image
     var body: some View {
-        Text(title)
-            .font(.title)
-            .fontWeight(.semibold)
-            .padding()
-        Text(subTitle)
-            .font(.title2)
-            .fontWeight(.regular)
-        
-        Spacer()
+        VStack {
+            Spacer()
+            Text(title)
+                .font(.title)
+                .fontWeight(.semibold)
+                .padding()
+            Text(subTitle)
+                .font(.title2)
+                .fontWeight(.regular)
+            
+            Spacer()
             image
-            .resizable()
-            .scaledToFit()
-        
+                .resizable()
+                .scaledToFit()
+            
+            Spacer()
+        }
     }
 }
 

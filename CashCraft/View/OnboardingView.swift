@@ -10,6 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     /// Determine if we have seen the onboarding screen at lest once
     @Binding var hasSeenOnboarding: Bool
+    
     /// keep track of the current screen
     @State var currentScreen = 1
     
@@ -32,27 +33,37 @@ struct OnboardingView: View {
     ]
     var body: some View {
         VStack {
-            Spacer()
             // shows different onboarding screen
-            if currentScreen == 1 {
+            TabView(selection: $currentScreen) {
+                // onboardging page 1
                 OnBoardingScreenComponents(title: contentInfo["title1"] ?? "", subTitle: contentInfo["subtitle1"] ?? "" , image: Image(contentInfo["image1"] ?? "clock.fill"))
-            } else if  currentScreen == 2 {
+                    .tag(1)
+                // onboardging page 2
+               
                 OnBoardingScreenComponents(title: contentInfo["title2"] ?? "", subTitle: contentInfo["subtitle2"] ?? "" , image: Image(contentInfo["image2"] ?? "clock.fill"))
-            } else if currentScreen == 3 {
+                    .tag(2)
+                // onboardging page 3
                 OnBoardingScreenComponents(title: contentInfo["title3"] ?? "", subTitle: contentInfo["subtitle3"] ?? "" , image: Image(contentInfo["image3"] ?? "clock.fill"))
+                    .tag(3)
             }
-            
-            Spacer()
+            .tabViewStyle(PageTabViewStyle())
+            .onAppear {
+                // customise the active and inactive dot colors
+                UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.systemBlue
+                UIPageControl.appearance().pageIndicatorTintColor = UIColor.systemGray
+            }
+            .transition(.move(edge: .trailing))
+            .animation(.easeInOut(duration: 5), value: currentScreen)
+
             // continue/get started button
             Button {
                 // keeping track of the current screen
                 if currentScreen == 3 {
                     hasSeenOnboarding = true
                 }
-                if currentScreen < 3{
-                    currentScreen += 1 // move to the next screen
+                if currentScreen < 3 {
+                    currentScreen += 1
                 }
-                
             } label: {
                 Text((currentScreen == 3 ? contentInfo["button_getStarted"] : contentInfo["button_continue"]) ?? "Continue")
                     .font(.headline)
@@ -62,6 +73,7 @@ struct OnboardingView: View {
             .background(Color.blue)
             .cornerRadius(20)
             .shadow(color: .gray, radius: 5,x: 0, y: 5)
+            .transition(.move(edge: .trailing))
             Spacer()
         }
     }
