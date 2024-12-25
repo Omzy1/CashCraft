@@ -24,6 +24,22 @@
 		4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */; };
 		4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */; };
 		4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */; };
+		4C06DC3B2D1C26C9003EB13F /* logoTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC3A2D1C26C9003EB13F /* logoTransparent.png */; };
+		4C06DC3E2D1C2ECA003EB13F /* LaunchApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */; };
+		4C06DC432D1C3D7B003EB13F /* logoTransparent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC402D1C3D7B003EB13F /* logoTransparent@3x.png */; };
+		4C06DC442D1C3D7B003EB13F /* logoTransparent@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC412D1C3D7B003EB13F /* logoTransparent@1x.png */; };
+		4C06DC452D1C3D7B003EB13F /* logoTransparent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC422D1C3D7B003EB13F /* logoTransparent@2x.png */; };
+		4C06DC512D1C3DBD003EB13F /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC462D1C3DBC003EB13F /* 60.png */; };
+		4C06DC522D1C3DBD003EB13F /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC472D1C3DBC003EB13F /* 58.png */; };
+		4C06DC532D1C3DBD003EB13F /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC482D1C3DBD003EB13F /* 114.png */; };
+		4C06DC542D1C3DBD003EB13F /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC492D1C3DBD003EB13F /* 1024.png */; };
+		4C06DC552D1C3DBD003EB13F /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4A2D1C3DBD003EB13F /* 40.png */; };
+		4C06DC562D1C3DBD003EB13F /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4B2D1C3DBD003EB13F /* 120.png */; };
+		4C06DC572D1C3DBD003EB13F /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4C2D1C3DBD003EB13F /* 57.png */; };
+		4C06DC582D1C3DBD003EB13F /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4D2D1C3DBD003EB13F /* 180.png */; };
+		4C06DC592D1C3DBD003EB13F /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4E2D1C3DBD003EB13F /* 29.png */; };
+		4C06DC5A2D1C3DBD003EB13F /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4F2D1C3DBD003EB13F /* 80.png */; };
+		4C06DC5B2D1C3DBD003EB13F /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC502D1C3DBD003EB13F /* 87.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +61,23 @@
 		4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@2x.png"; sourceTree = "<group>"; };
 		4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@3x.png"; sourceTree = "<group>"; };
 		4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@1x.png"; sourceTree = "<group>"; };
+		4C06DC3A2D1C26C9003EB13F /* logoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTransparent.png; sourceTree = "<group>"; };
+		4C06DC3C2D1C2AEA003EB13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchApp.storyboard; sourceTree = "<group>"; };
+		4C06DC402D1C3D7B003EB13F /* logoTransparent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@3x.png"; sourceTree = "<group>"; };
+		4C06DC412D1C3D7B003EB13F /* logoTransparent@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@1x.png"; sourceTree = "<group>"; };
+		4C06DC422D1C3D7B003EB13F /* logoTransparent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@2x.png"; sourceTree = "<group>"; };
+		4C06DC462D1C3DBC003EB13F /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		4C06DC472D1C3DBC003EB13F /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		4C06DC482D1C3DBD003EB13F /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		4C06DC492D1C3DBD003EB13F /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		4C06DC4A2D1C3DBD003EB13F /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		4C06DC4B2D1C3DBD003EB13F /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		4C06DC4C2D1C3DBD003EB13F /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		4C06DC4D2D1C3DBD003EB13F /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		4C06DC4E2D1C3DBD003EB13F /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		4C06DC4F2D1C3DBD003EB13F /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		4C06DC502D1C3DBD003EB13F /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +94,7 @@
 		4C06DBEF2D0B68C3003EB13F = {
 			isa = PBXGroup;
 			children = (
+				4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */,
 				4C06DBFA2D0B68C3003EB13F /* CashCraft */,
 				4C06DBF92D0B68C3003EB13F /* Products */,
 			);
@@ -77,6 +111,7 @@
 		4C06DBFA2D0B68C3003EB13F /* CashCraft */ = {
 			isa = PBXGroup;
 			children = (
+				4C06DC3C2D1C2AEA003EB13F /* Info.plist */,
 				4C06DC112D0B6C44003EB13F /* App Core */,
 				4C06DC092D0B6B4A003EB13F /* View */,
 				4C06DC0A2D0B6B6E003EB13F /* ViewModels */,
@@ -190,6 +225,7 @@
 		4C06DC182D0DED50003EB13F /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				4C06DC3F2D1C3D03003EB13F /* logoAssets */,
 				4C06DC1A2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png */,
 				4C06DC1B2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png */,
 				4C06DC192D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png */,
@@ -216,6 +252,28 @@
 				4C06DC232D0E008C003EB13F /* Localizable.strings */,
 			);
 			path = Localized;
+			sourceTree = "<group>";
+		};
+		4C06DC3F2D1C3D03003EB13F /* logoAssets */ = {
+			isa = PBXGroup;
+			children = (
+				4C06DC4E2D1C3DBD003EB13F /* 29.png */,
+				4C06DC4A2D1C3DBD003EB13F /* 40.png */,
+				4C06DC4C2D1C3DBD003EB13F /* 57.png */,
+				4C06DC472D1C3DBC003EB13F /* 58.png */,
+				4C06DC462D1C3DBC003EB13F /* 60.png */,
+				4C06DC4F2D1C3DBD003EB13F /* 80.png */,
+				4C06DC502D1C3DBD003EB13F /* 87.png */,
+				4C06DC482D1C3DBD003EB13F /* 114.png */,
+				4C06DC4B2D1C3DBD003EB13F /* 120.png */,
+				4C06DC4D2D1C3DBD003EB13F /* 180.png */,
+				4C06DC492D1C3DBD003EB13F /* 1024.png */,
+				4C06DC3A2D1C26C9003EB13F /* logoTransparent.png */,
+				4C06DC412D1C3D7B003EB13F /* logoTransparent@1x.png */,
+				4C06DC422D1C3D7B003EB13F /* logoTransparent@2x.png */,
+				4C06DC402D1C3D7B003EB13F /* logoTransparent@3x.png */,
+			);
+			path = logoAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,16 +334,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C06DC592D1C3DBD003EB13F /* 29.png in Resources */,
+				4C06DC532D1C3DBD003EB13F /* 114.png in Resources */,
 				4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */,
 				4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */,
+				4C06DC542D1C3DBD003EB13F /* 1024.png in Resources */,
+				4C06DC452D1C3D7B003EB13F /* logoTransparent@2x.png in Resources */,
+				4C06DC572D1C3DBD003EB13F /* 57.png in Resources */,
+				4C06DC522D1C3DBD003EB13F /* 58.png in Resources */,
+				4C06DC5B2D1C3DBD003EB13F /* 87.png in Resources */,
 				4C06DC2C2D0F1109003EB13F /* OnBoardingTrackMoney@2x.png in Resources */,
 				4C06DC032D0B68C4003EB13F /* Preview Assets.xcassets in Resources */,
 				4C06DC252D0E008C003EB13F /* Localizable.strings in Resources */,
+				4C06DC442D1C3D7B003EB13F /* logoTransparent@1x.png in Resources */,
+				4C06DC512D1C3DBD003EB13F /* 60.png in Resources */,
+				4C06DC552D1C3DBD003EB13F /* 40.png in Resources */,
 				4C06DC1E2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png in Resources */,
+				4C06DC5A2D1C3DBD003EB13F /* 80.png in Resources */,
+				4C06DC562D1C3DBD003EB13F /* 120.png in Resources */,
+				4C06DC582D1C3DBD003EB13F /* 180.png in Resources */,
 				4C06DC002D0B68C4003EB13F /* Assets.xcassets in Resources */,
 				4C06DC1D2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png in Resources */,
+				4C06DC3B2D1C26C9003EB13F /* logoTransparent.png in Resources */,
 				4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */,
+				4C06DC432D1C3D7B003EB13F /* logoTransparent@3x.png in Resources */,
 				4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */,
+				4C06DC3E2D1C2ECA003EB13F /* LaunchApp.storyboard in Resources */,
 				4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */,
 				4C06DC1C2D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png in Resources */,
 			);
@@ -450,9 +524,11 @@
 				DEVELOPMENT_TEAM = 3ZPB99A3BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashCraft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchApp.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,9 +555,11 @@
 				DEVELOPMENT_TEAM = 3ZPB99A3BY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashCraft/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchApp.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
