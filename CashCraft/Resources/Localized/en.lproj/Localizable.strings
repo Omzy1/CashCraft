@@ -19,3 +19,10 @@ imageOnboarding_screenTwo = "OnBoardingTrackMoney";
 onboarding_screenThree_title = "Finance Your Dreams";
 onboarding_screenThree_subtitle = "One Step at a Time";
 imageOnboarding_screenThree = "OnBoardingFinanceDreams";
+
+//Login
+login_title = "Login";
+login_image = "loginImage";
+//google_logo_image = "googleLogo";
+google_logo_image = "googleColourIcon";
+google_title_button_login = "Login with Google";

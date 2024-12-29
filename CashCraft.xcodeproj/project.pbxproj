@@ -24,6 +24,18 @@
 		4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */; };
 		4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */; };
 		4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */; };
+		4C3AD9FF2D1D828F005C2FE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3AD9FE2D1D828F005C2FE1 /* LoginView.swift */; };
+		4C3ADA042D1D88F1005C2FE1 /* loginImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA012D1D88F1005C2FE1 /* loginImage@3x.png */; };
+		4C3ADA052D1D88F1005C2FE1 /* loginImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA022D1D88F1005C2FE1 /* loginImage@2x.png */; };
+		4C3ADA062D1D88F1005C2FE1 /* loginImage@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA032D1D88F1005C2FE1 /* loginImage@1x.png */; };
+		4C3ADA0A2D1D9DDE005C2FE1 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA092D1D9DDE005C2FE1 /* InputView.swift */; };
+		4C3ADA0C2D1DB9FF005C2FE1 /* LineOrSeperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA0B2D1DB9FF005C2FE1 /* LineOrSeperator.swift */; };
+		4C3ADA0E2D1DBAA2005C2FE1 /* ButtonAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA0D2D1DBAA2005C2FE1 /* ButtonAuthentication.swift */; };
+		4C3ADA122D1DBF8E005C2FE1 /* googleLogo@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA0F2D1DBF8E005C2FE1 /* googleLogo@1x.png */; };
+		4C3ADA132D1DBF8E005C2FE1 /* googleLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */; };
+		4C3ADA142D1DBF8E005C2FE1 /* googleLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */; };
+		4C3ADA162D1DC5D6005C2FE1 /* ButtonGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */; };
+		4C3ADA182D1DCB4E005C2FE1 /* HaveAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +57,18 @@
 		4C06DC2E2D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@2x.png"; sourceTree = "<group>"; };
 		4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@3x.png"; sourceTree = "<group>"; };
 		4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@1x.png"; sourceTree = "<group>"; };
+		4C3AD9FE2D1D828F005C2FE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4C3ADA012D1D88F1005C2FE1 /* loginImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginImage@3x.png"; sourceTree = "<group>"; };
+		4C3ADA022D1D88F1005C2FE1 /* loginImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginImage@2x.png"; sourceTree = "<group>"; };
+		4C3ADA032D1D88F1005C2FE1 /* loginImage@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginImage@1x.png"; sourceTree = "<group>"; };
+		4C3ADA092D1D9DDE005C2FE1 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		4C3ADA0B2D1DB9FF005C2FE1 /* LineOrSeperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineOrSeperator.swift; sourceTree = "<group>"; };
+		4C3ADA0D2D1DBAA2005C2FE1 /* ButtonAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAuthentication.swift; sourceTree = "<group>"; };
+		4C3ADA0F2D1DBF8E005C2FE1 /* googleLogo@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@1x.png"; sourceTree = "<group>"; };
+		4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@2x.png"; sourceTree = "<group>"; };
+		4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@3x.png"; sourceTree = "<group>"; };
+		4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGoogle.swift; sourceTree = "<group>"; };
+		4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveAccountButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				4C06DC122D0B6CEE003EB13F /* Main */,
+				4C3AD9FD2D1D820C005C2FE1 /* Login */,
 				4C06DC152D0DE4A4003EB13F /* OnboardingView.swift */,
 				4C06DC262D0E088B003EB13F /* OnBoardingScreenComponents.swift */,
 			);
@@ -182,6 +207,7 @@
 		4C06DC172D0DED37003EB13F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				4C3ADA002D1D88DF005C2FE1 /* Login */,
 				4C06DC182D0DED50003EB13F /* Onboarding */,
 			);
 			path = Assets;
@@ -206,6 +232,11 @@
 		4C06DC1F2D0DFC2C003EB13F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4C3ADA092D1D9DDE005C2FE1 /* InputView.swift */,
+				4C3ADA0B2D1DB9FF005C2FE1 /* LineOrSeperator.swift */,
+				4C3ADA0D2D1DBAA2005C2FE1 /* ButtonAuthentication.swift */,
+				4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */,
+				4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -216,6 +247,27 @@
 				4C06DC232D0E008C003EB13F /* Localizable.strings */,
 			);
 			path = Localized;
+			sourceTree = "<group>";
+		};
+		4C3AD9FD2D1D820C005C2FE1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C3AD9FE2D1D828F005C2FE1 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4C3ADA002D1D88DF005C2FE1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4C3ADA0F2D1DBF8E005C2FE1 /* googleLogo@1x.png */,
+				4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */,
+				4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */,
+				4C3ADA032D1D88F1005C2FE1 /* loginImage@1x.png */,
+				4C3ADA022D1D88F1005C2FE1 /* loginImage@2x.png */,
+				4C3ADA012D1D88F1005C2FE1 /* loginImage@3x.png */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,12 +330,18 @@
 			files = (
 				4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */,
 				4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */,
+				4C3ADA062D1D88F1005C2FE1 /* loginImage@1x.png in Resources */,
 				4C06DC2C2D0F1109003EB13F /* OnBoardingTrackMoney@2x.png in Resources */,
 				4C06DC032D0B68C4003EB13F /* Preview Assets.xcassets in Resources */,
+				4C3ADA132D1DBF8E005C2FE1 /* googleLogo@2x.png in Resources */,
+				4C3ADA052D1D88F1005C2FE1 /* loginImage@2x.png in Resources */,
+				4C3ADA142D1DBF8E005C2FE1 /* googleLogo@3x.png in Resources */,
 				4C06DC252D0E008C003EB13F /* Localizable.strings in Resources */,
 				4C06DC1E2D0DED6A003EB13F /* OnBoardingCreatingAccount@2x.png in Resources */,
 				4C06DC002D0B68C4003EB13F /* Assets.xcassets in Resources */,
 				4C06DC1D2D0DED6A003EB13F /* OnBoardingCreatingAccount@1x.png in Resources */,
+				4C3ADA042D1D88F1005C2FE1 /* loginImage@3x.png in Resources */,
+				4C3ADA122D1DBF8E005C2FE1 /* googleLogo@1x.png in Resources */,
 				4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */,
 				4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */,
 				4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */,
@@ -298,11 +356,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3ADA0E2D1DBAA2005C2FE1 /* ButtonAuthentication.swift in Sources */,
+				4C3AD9FF2D1D828F005C2FE1 /* LoginView.swift in Sources */,
+				4C3ADA0A2D1D9DDE005C2FE1 /* InputView.swift in Sources */,
 				4C06DC142D0B7128003EB13F /* AppDelegate.swift in Sources */,
 				4C06DC162D0DE4A4003EB13F /* OnboardingView.swift in Sources */,
 				4C06DC272D0E088B003EB13F /* OnBoardingScreenComponents.swift in Sources */,
+				4C3ADA162D1DC5D6005C2FE1 /* ButtonGoogle.swift in Sources */,
 				4C06DBFE2D0B68C3003EB13F /* ContentView.swift in Sources */,
+				4C3ADA0C2D1DB9FF005C2FE1 /* LineOrSeperator.swift in Sources */,
 				4C06DBFC2D0B68C3003EB13F /* CashCraftApp.swift in Sources */,
+				4C3ADA182D1DCB4E005C2FE1 /* HaveAccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
