@@ -25,7 +25,6 @@
 		4C06DC322D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC2F2D0F120C003EB13F /* OnBoardingFinanceDreams@3x.png */; };
 		4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */; };
 		4C06DC3B2D1C26C9003EB13F /* logoTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC3A2D1C26C9003EB13F /* logoTransparent.png */; };
-		4C06DC3E2D1C2ECA003EB13F /* LaunchApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */; };
 		4C06DC432D1C3D7B003EB13F /* logoTransparent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC402D1C3D7B003EB13F /* logoTransparent@3x.png */; };
 		4C06DC442D1C3D7B003EB13F /* logoTransparent@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC412D1C3D7B003EB13F /* logoTransparent@1x.png */; };
 		4C06DC452D1C3D7B003EB13F /* logoTransparent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC422D1C3D7B003EB13F /* logoTransparent@2x.png */; };
@@ -40,6 +39,7 @@
 		4C06DC592D1C3DBD003EB13F /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4E2D1C3DBD003EB13F /* 29.png */; };
 		4C06DC5A2D1C3DBD003EB13F /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC4F2D1C3DBD003EB13F /* 80.png */; };
 		4C06DC5B2D1C3DBD003EB13F /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C06DC502D1C3DBD003EB13F /* 87.png */; };
+		4C8BFA9A2D4036510006B879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BFA992D4036500006B879 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +63,6 @@
 		4C06DC302D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OnBoardingFinanceDreams@1x.png"; sourceTree = "<group>"; };
 		4C06DC3A2D1C26C9003EB13F /* logoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoTransparent.png; sourceTree = "<group>"; };
 		4C06DC3C2D1C2AEA003EB13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchApp.storyboard; sourceTree = "<group>"; };
 		4C06DC402D1C3D7B003EB13F /* logoTransparent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@3x.png"; sourceTree = "<group>"; };
 		4C06DC412D1C3D7B003EB13F /* logoTransparent@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@1x.png"; sourceTree = "<group>"; };
 		4C06DC422D1C3D7B003EB13F /* logoTransparent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logoTransparent@2x.png"; sourceTree = "<group>"; };
@@ -78,6 +77,7 @@
 		4C06DC4E2D1C3DBD003EB13F /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
 		4C06DC4F2D1C3DBD003EB13F /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
 		4C06DC502D1C3DBD003EB13F /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		4C8BFA992D4036500006B879 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,6 @@
 		4C06DBEF2D0B68C3003EB13F = {
 			isa = PBXGroup;
 			children = (
-				4C06DC3D2D1C2ECA003EB13F /* LaunchApp.storyboard */,
 				4C06DBFA2D0B68C3003EB13F /* CashCraft */,
 				4C06DBF92D0B68C3003EB13F /* Products */,
 			);
@@ -124,6 +123,7 @@
 				4C06DC0D2D0B6BDD003EB13F /* Firebase */,
 				4C06DBFF2D0B68C4003EB13F /* Assets.xcassets */,
 				4C06DC012D0B68C4003EB13F /* Preview Content */,
+				4C8BFA992D4036500006B879 /* LaunchScreen.storyboard */,
 			);
 			path = CashCraft;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 				4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */,
 				4C06DC432D1C3D7B003EB13F /* logoTransparent@3x.png in Resources */,
 				4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */,
-				4C06DC3E2D1C2ECA003EB13F /* LaunchApp.storyboard in Resources */,
+				4C8BFA9A2D4036510006B879 /* LaunchScreen.storyboard in Resources */,
 				4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */,
 				4C06DC1C2D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png in Resources */,
 			);
@@ -528,7 +528,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchApp.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -559,7 +559,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchApp.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
