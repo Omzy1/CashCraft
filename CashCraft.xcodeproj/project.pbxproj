@@ -35,7 +35,10 @@
 		4C3ADA132D1DBF8E005C2FE1 /* googleLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */; };
 		4C3ADA142D1DBF8E005C2FE1 /* googleLogo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */; };
 		4C3ADA162D1DC5D6005C2FE1 /* ButtonGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */; };
-		4C3ADA182D1DCB4E005C2FE1 /* HaveAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */; };
+		4C8BFA9C2D4692930006B879 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BFA9B2D4692930006B879 /* SignupView.swift */; };
+		4C8BFAA02D4696260006B879 /* signUpImage@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BFA9D2D4696260006B879 /* signUpImage@1x.png */; };
+		4C8BFAA12D4696260006B879 /* signUpImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BFA9E2D4696260006B879 /* signUpImage@3x.png */; };
+		4C8BFAA22D4696260006B879 /* signUpImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8BFA9F2D4696260006B879 /* signUpImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +71,10 @@
 		4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@2x.png"; sourceTree = "<group>"; };
 		4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "googleLogo@3x.png"; sourceTree = "<group>"; };
 		4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGoogle.swift; sourceTree = "<group>"; };
-		4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveAccountButton.swift; sourceTree = "<group>"; };
+		4C8BFA9B2D4692930006B879 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		4C8BFA9D2D4696260006B879 /* signUpImage@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signUpImage@1x.png"; sourceTree = "<group>"; };
+		4C8BFA9E2D4696260006B879 /* signUpImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signUpImage@3x.png"; sourceTree = "<group>"; };
+		4C8BFA9F2D4696260006B879 /* signUpImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signUpImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,7 +242,6 @@
 				4C3ADA0B2D1DB9FF005C2FE1 /* LineOrSeperator.swift */,
 				4C3ADA0D2D1DBAA2005C2FE1 /* ButtonAuthentication.swift */,
 				4C3ADA152D1DC5D6005C2FE1 /* ButtonGoogle.swift */,
-				4C3ADA172D1DCB4E005C2FE1 /* HaveAccountButton.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				4C3AD9FE2D1D828F005C2FE1 /* LoginView.swift */,
+				4C8BFA9B2D4692930006B879 /* SignupView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -260,6 +266,9 @@
 		4C3ADA002D1D88DF005C2FE1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				4C8BFA9D2D4696260006B879 /* signUpImage@1x.png */,
+				4C8BFA9F2D4696260006B879 /* signUpImage@2x.png */,
+				4C8BFA9E2D4696260006B879 /* signUpImage@3x.png */,
 				4C3ADA0F2D1DBF8E005C2FE1 /* googleLogo@1x.png */,
 				4C3ADA102D1DBF8E005C2FE1 /* googleLogo@2x.png */,
 				4C3ADA112D1DBF8E005C2FE1 /* googleLogo@3x.png */,
@@ -332,6 +341,7 @@
 				4C06DC332D0F120C003EB13F /* OnBoardingFinanceDreams@1x.png in Resources */,
 				4C3ADA062D1D88F1005C2FE1 /* loginImage@1x.png in Resources */,
 				4C06DC2C2D0F1109003EB13F /* OnBoardingTrackMoney@2x.png in Resources */,
+				4C8BFAA22D4696260006B879 /* signUpImage@2x.png in Resources */,
 				4C06DC032D0B68C4003EB13F /* Preview Assets.xcassets in Resources */,
 				4C3ADA132D1DBF8E005C2FE1 /* googleLogo@2x.png in Resources */,
 				4C3ADA052D1D88F1005C2FE1 /* loginImage@2x.png in Resources */,
@@ -345,7 +355,9 @@
 				4C06DC312D0F120C003EB13F /* OnBoardingFinanceDreams@2x.png in Resources */,
 				4C06DC2B2D0F1109003EB13F /* OnBoardingTrackMoney@3x.png in Resources */,
 				4C06DC2D2D0F1109003EB13F /* OnBoardingTrackMoney@1x.png in Resources */,
+				4C8BFAA12D4696260006B879 /* signUpImage@3x.png in Resources */,
 				4C06DC1C2D0DED6A003EB13F /* OnBoardingCreatingAccount@3x.png in Resources */,
+				4C8BFAA02D4696260006B879 /* signUpImage@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8BFA9C2D4692930006B879 /* SignupView.swift in Sources */,
 				4C3ADA0E2D1DBAA2005C2FE1 /* ButtonAuthentication.swift in Sources */,
 				4C3AD9FF2D1D828F005C2FE1 /* LoginView.swift in Sources */,
 				4C3ADA0A2D1D9DDE005C2FE1 /* InputView.swift in Sources */,
@@ -366,7 +379,6 @@
 				4C06DBFE2D0B68C3003EB13F /* ContentView.swift in Sources */,
 				4C3ADA0C2D1DB9FF005C2FE1 /* LineOrSeperator.swift in Sources */,
 				4C06DBFC2D0B68C3003EB13F /* CashCraftApp.swift in Sources */,
-				4C3ADA182D1DCB4E005C2FE1 /* HaveAccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

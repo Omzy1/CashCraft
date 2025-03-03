@@ -40,8 +40,16 @@ struct LoginView: View {
                     print("Google button tapped")
                 })
                 // Sign up
-                HaveAccountButton(text: "Don't have an account?", textisLogin: "Sign Up")
-                    .padding(.horizontal)
+                NavigationLink {
+                    SignupView()} label: {
+                        Text(NSLocalizedString("donthave_account", comment: "don't have an account?"))
+                            .foregroundColor(.black.opacity(0.5))
+                        Text(NSLocalizedString("button_signup_text", comment: " button sign up text"))
+                       
+                        .padding(.horizontal)
+                    }
+                    .transition(.slide)
+                
                 Spacer()
                 
             }

@@ -26,3 +26,12 @@ login_image = "loginImage";
 //google_logo_image = "googleLogo";
 google_logo_image = "googleColourIcon";
 google_title_button_login = "Login with Google";
+google_title_button_signup = "Sign In with Google";
+donthave_account = "Don't have an account?";
+
+// Signup
+signup_title = "Sign up";
+button_signup_text = "Sign Up";
+signup_image = "signUpImage";
+already_account = "Already have an account?";
+
