@@ -7,14 +7,14 @@
 
 import Foundation
 import UIKit
+import Firebase
 
 /// AppDelegate is the entry point of the App, manage configuations, analytics , logs and app states
 class AppDelegate: NSObject, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        
         // firebase config will go here
-        
+        FirebaseApp.configure()
         
         print("AppDelegate: App Lanched Successfully")
         return true

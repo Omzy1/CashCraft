@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct SignupView: View {
-    @State var email: String = ""
-    @State var password: String = ""
-    @State var confirmPassword: String = ""
-    @State var username: String = ""
     @Environment(\.dismiss) var dismiss
+    @StateObject private var viewmodel = SignUpViewModel()
     var body: some View {
         ZStack {
             Color.white
@@ -27,14 +24,12 @@ struct SignupView: View {
                         .font(.title)
                         .fontWeight(.semibold)
                         .padding(.leading)
-                    
-                    InputView(text: $username, imageName: "person", textfield: "username")
-                    InputView(text: $email, imageName: "at", textfield: "Email ID")
-                    InputView(text: $password, imageName: "lock", textfield: "Password")
-                    InputView(text: $confirmPassword, imageName: "lock", textfield: "Confirm Password")
+                    InputView(text: $viewmodel.email, imageName: "at", textfield: "Email ID")
+                    InputView(text: $viewmodel.password, imageName: "lock", textfield: "Password")
                 }
                 // login button
                 ButtonAuthentication(text: NSLocalizedString("signup_title", comment: "button signup title"), buttonAction: {
+                    viewmodel.signUp()
                     print("Signup button tapped")
                 })
                 // line

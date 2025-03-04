@@ -14,7 +14,6 @@ struct InputView: View {
     var body: some View {
         Label {
             TextField(textfield, text: $text)
-                .foregroundColor(.white)
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
         } icon: {

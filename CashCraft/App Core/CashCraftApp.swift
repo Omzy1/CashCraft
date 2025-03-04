@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct CashCraftApp: App {
+    // registering appDelegate
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
     var body: some Scene {

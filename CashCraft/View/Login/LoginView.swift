@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email: String = ""
-    @State var password: String = ""
+    @StateObject private var viewmodel = LoginViewModel()
+    @Binding var showLoginView: Bool
     var body: some View {
         ZStack {
             Color.white
@@ -26,12 +26,21 @@ struct LoginView: View {
                         .font(.title)
                         .fontWeight(.semibold)
                         .padding(.leading)
-                    InputView(text: $email, imageName: "at", textfield: "Email ID")
-                    InputView(text: $password, imageName: "lock", textfield: "Password")
+                    InputView(text: $viewmodel.email, imageName: "at", textfield: "Email ID")
+                    InputView(text: $viewmodel.password, imageName: "lock", textfield: "Password")
                 }
                 // login button
                 ButtonAuthentication(text: NSLocalizedString("login_title", comment: "button login title"), buttonAction: {
-                    print("Login button tapped")
+                    // login
+                    Task {
+                        do {
+                            try await viewmodel.login()
+                            showLoginView = false
+                            print("Login button tapped")
+                        } catch {
+                            print(error)
+                        }
+                    }
                 })
                 // line
                 LineOrSeperator()
@@ -58,5 +67,5 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView()
+    LoginView(showLoginView: .constant(true))
 }
