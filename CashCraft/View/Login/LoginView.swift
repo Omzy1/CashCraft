@@ -26,21 +26,23 @@ struct LoginView: View {
                         .font(.title)
                         .fontWeight(.semibold)
                         .padding(.leading)
+                    // show error for validation
+                    if  let invalidEmailOrPassword = viewmodel.invalidEmailOrPassowrd {
+                        Text(invalidEmailOrPassword)
+                            .padding(.leading)
+                            .font(.caption)
+                            .foregroundColor(.red)
+                            .fontWeight(.semibold)
+                            .padding(.leading)
+                    }
                     InputView(text: $viewmodel.email, imageName: "at", textfield: "Email ID")
                     InputView(text: $viewmodel.password, imageName: "lock", textfield: "Password")
                 }
                 // login button
                 ButtonAuthentication(text: NSLocalizedString("login_title", comment: "button login title"), buttonAction: {
                     // login
-                    Task {
-                        do {
-                            try await viewmodel.login()
-                            showLoginView = false
-                            print("Login button tapped")
-                        } catch {
-                            print(error)
-                        }
-                    }
+                    viewmodel.login(showLogin: $showLoginView)
+                    print("Login button tapped")
                 })
                 // line
                 LineOrSeperator()
@@ -67,5 +69,6 @@ struct LoginView: View {
 }
 
 #Preview {
+//    LoginView(showLoginView: .constant(true))
     LoginView(showLoginView: .constant(true))
 }

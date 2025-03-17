@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+import FirebaseAuth
 
 @MainActor
 final class LoginViewModel: ObservableObject {
@@ -13,14 +15,36 @@ final class LoginViewModel: ObservableObject {
     @Published var email: String = ""
     @Published var password: String = ""
     
-    func login() async throws {
-        guard !email.isEmpty , !password.isEmpty else {
-            // temporary changes, need proper validation
-            print("Please enter a valid email or password")
-            return
+    @Published var invalidEmailOrPassowrd: String?
+    var isValid: Bool {
+        !email.isEmpty && !password.isEmpty
+    }
+    
+    func validateLogin() {
+        invalidEmailOrPassowrd = isValid ? nil : "Please enter a valid email or password"
+    }
+    
+    func login(showLogin: Binding<Bool>){
+        // validate the login sign in
+        validateLogin()
+        Task {
+            do {
+                let returnUserData = try await FirebaseAuthService().signInUser(email: email, password: password)
+                print("Successfully login task")
+                print(returnUserData)
+                showLogin.wrappedValue = false
+            } catch let error as NSError {
+                invalidEmailOrPassowrd = "Please enter a valid email or password"
+                showLogin.wrappedValue = true
+                switch error.code {
+                case AuthErrorCode.userNotFound.rawValue:
+                    print("No account found with this email")
+                case AuthErrorCode.wrongPassword.rawValue:
+                    print("Incorrect Password")
+                default:
+                    print("Login error: \(error.localizedDescription)")
+                }
+            }
         }
-        
-        let returnUserData = try await FirebaseAuthService().signInUser(email: email, password: password)
-        
     }
 }
